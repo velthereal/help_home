@@ -1,0 +1,36 @@
+form {
+	width: 400px;
+	background-color: rgb(196, 210, 247);
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	padding: 10px;
+	font-size: 18px;
+	margin: 0 auto;
+	margin-top: 50px;
+	grid-row-gap: 20px;
+	position: relative;
+}
+
+a {
+	grid-column: span 2;
+	background-color: #ccc;
+	padding: 5px;
+	text-align: center;
+	color: #000;
+	text-decoration: none;
+	border-radius: 5px;
+}
+span {
+	color: red;
+	position: absolute;
+	font-size: 14px;
+	right: 10px;
+	top: 3px;
+	display: none;
+}
+form span:nth-of-type(2){
+	top: 45px;
+}
+.wrong {
+	display: inline;
+}

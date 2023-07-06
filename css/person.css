@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+section {
+    width: 420px;
+	background-color: rgb(196, 210, 247);
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+}
+section>p {
+    text-align: right;
+}
+#user {
+    display: inline;
+    position: static;
+    color: black;
+}
+p a{
+    color: blue;
+    background: none;
+    text-decoration: underline;
+}
+h3 {
+    text-align: center;
+}
+hr {
+    margin: 10px 0;
+}
+input[type="button"] {
+	grid-column: span 2;
+}
+input, select {
+    width: 100%;
+}
+form {
+    grid-column-gap: 15px;
+}

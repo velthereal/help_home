@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>User info</title>
+	<link rel="stylesheet" href="../css/person.css">
+	<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+	<section>
+		<p>Hello, <span id="user"></span> <a href="../index.html">exit</a></p>
+		<hr>
+		<h3>User info</h3>
+		<form action="">
+			<p>
+				<label for="">First Name</label>
+				<input required type="text" name="Name">
+			</p>
+			<p>
+				<label for="">Last Name</label>
+				<input required type="text" name="lastname">
+			</p>
+			<p>
+				<label for="">Year of birth</label>
+				<input required value="1900" type="number" name="birthdate" min="1900">
+			</p>
+			<p>
+				<label for="">Gender</label>
+				<br>
+				<select required name="gender" id="">
+					<option value="male">male</option>
+					<option value="female">female</option>
+				</select>
+			</p>
+			<p>
+				<label for="">Phone number</label>
+				<input type="text" name="phone">
+			</p>
+			<p>
+				<label for="">Skype</label>
+				<input type="text" name="skype">
+			</p>
+			<input type="button" value="Save">
+		</form>
+	</section>
+	
+	<script src="../js/person.js"></script>
+</body>
+</html>
